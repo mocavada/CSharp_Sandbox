@@ -24,7 +24,7 @@ namespace Generics.System
     }
 
     // * TYPE PARAMETERS
-    public class TypeParameters_SmartIncinerator
+    public class TP_SmartIncinerator
     {
         public Action DestroyMethod { get; set; }
         public void Burn<T>(T destroyMe)
